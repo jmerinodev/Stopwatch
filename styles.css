@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Permanent+Marker&family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    color: white;   
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 40px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: white;
+    color:black;
+}
