@@ -3,12 +3,16 @@
 body {
     background-color: black;
     font-family: 'Heebo', sans-serif;
-    font-size: 2rem;
-    color: white;   
+    font-size: 1.5rem;
+    color: white;
 }
 
 .container {
     text-align: center;
+}
+
+span {
+    font-size: 2rem;
 }
 
 button {
@@ -17,7 +21,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     color: white;
-    padding: 10px 40px;
+    padding: 10px 30px;
     font-family: 'Heebo', sans-serif;
     font-weight: bold;
     font-size: 1rem;
