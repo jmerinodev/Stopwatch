@@ -2,6 +2,7 @@
 
 body {
     background-color: black;
+    user-select: none;
     font-family: 'Heebo', sans-serif;
     font-size: 1.5rem;
     color: white;
