@@ -25,30 +25,17 @@ btnReset.onclick = function() {
 }
 
 function updateTimer() {
-    updateCentiseconds();
-}
-
-function updateCentiseconds() {
     centiseconds++;
     if (centiseconds < 10) {
         centisecondsContainer.innerHTML = "0" + centiseconds;
     }
     else if (centiseconds == 100) {
-        updateSeconds();
+        seconds++;
+        secondsContainer.innerHTML = (seconds < 10) ? "0" + seconds : seconds;
         centisecondsContainer.innerHTML = "00";
         centiseconds = 0;
     }
     else {
         centisecondsContainer.innerHTML = centiseconds;
-    }
-}
-
-function updateSeconds() {
-    seconds++;
-    if (seconds < 10) {
-        secondsContainer.innerHTML = "0" + seconds;
-    }
-    else {
-        secondsContainer.innerHTML = seconds;
     }
 }
